@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+		<title>Frontend Mentor | QR code component</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      main {
+        background-color:  hsl(212, 45%, 89%);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .pane {
+        background-color: hsl(0, 0%, 100%);
+        width: 320px;
+        height: 510px;
+        border-radius: 20px;
+        text-align: center;
+      }
+
+      .pane > .QR{
+        
+        margin: 20px;
+        position: relative;
+        width: 280px;
+        border-radius: 20px;
+      }
+
+      h1 {
+        font-size: 15pt;
+        margin: 0px;
+        font-family: "Outfit";
+      }
+
+      p {
+        color: gray;
+        font-family: "Outfit";
+        font-weight: 400;
+        margin: 20pt;
+      }
+
+      footer{
+        display: block;
+        position: absolute;
+        font-family: "Outfit";
+        font-size: 10pt;
+        text-align: center;
+        bottom: 15px;
+        justify-content: center;
+      }
+		</style>
+	</head>
+
+
+	<body>
+    <main>
+      <div class = "pane">
+        <img class="QR" src="images/image-qr-code.png">
+        <h1 style="font-size: 15pt;">
+          Improve your front-end <br/>skills by building projects.
+        </h1>
+        <p>
+          Scan the QR code to visit Frontend </br>Mentor and take your coding skills to </br>the next level
+        </p>
+      </div>
+      
+      <footer>
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          </Br>Coded by <a href="#">Nattapong Chueasiritaworn</a>.
+      </footer>
+
+    </main>
+
+    
+    
+      
+	</body>
+</html>
